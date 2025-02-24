@@ -1,2 +1,2 @@
 var sidebar = document.getElementById('sidebar');
-sidebar.innerHTML = "<p><a href=\"https://manim-math.github.io/site/\"><img src=\"https://docs.manim.community/en/stable/_static/manim-logo-sidebar.svg\" width=\"179px\"></a></p>  <h1>Math themes video site</h1>  <h6>Videos were made by Manim*</h6>  <p><a href=\"https://manim-math.github.io/site/videos\">Videos</a></p>";
+sidebar.innerHTML = "<p><a href=\"https://manim-math.github.io/site/\"><img src=\"https://docs.manim.community/en/stable/_static/manim-logo-sidebar.svg\" width=\"179px\"></a></p>  <h1>Math video site</h1>  <h6>Videos were made within Manim*</h6>  <p><a href=\"https://manim-math.github.io/site/videos\">Videos</a></p>";
