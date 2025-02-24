@@ -1,6 +1,7 @@
 var vid = document.getElementById("video");
 const gitVideoRepo = "manim-math/video-repo";
 var id = new URLSearchParams(document.location.search).get("v");
+console.log(id);
 var lnk = "none";
 fetch(`https://api.github.com/repos/${gitVideoRepo}/contents/`)
   .then(response => response.json())
