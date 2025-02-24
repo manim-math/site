@@ -1,5 +1,5 @@
 var vid = document.getElementById("video");
-var id = URLSearchParams(document.location.search).get("v");
+var id = new URLSearchParams(document.location.search).get("v");
 var lnk = "none";
 fetch(`https://api.github.com/repos/${gitVideoRepo}/contents/`)
   .then(response => response.json())
