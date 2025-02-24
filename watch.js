@@ -8,6 +8,8 @@ fetch(`https://api.github.com/repos/${gitVideoRepo}/contents/`)
   .then(data => {
     data.forEach(file => {
         if (file.name.endsWith('.mp4') && file.name.replace('.mp4', '') == id){
+            console.log("at least im here");
+            console.log(file.download_url);
             lnk = file.download_url;
         }
     });
