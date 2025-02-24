@@ -1,6 +1,6 @@
 var vid = document.getElementById("video");
 var id = URLSearchParams(document.location.search).get("v");
-var lnk;
+var lnk = "none";
 fetch(`https://api.github.com/repos/${gitVideoRepo}/contents/`)
   .then(response => response.json())
   .then(data => {
@@ -11,6 +11,6 @@ fetch(`https://api.github.com/repos/${gitVideoRepo}/contents/`)
     });
 });
 vid.innerHTML = `
-<video width=\"90%\" height=\"55%\" controls>
+<video width=\"800px\" height=\"450px\" controls>
 <source src=\"${lnk}\" type="video/mp4">
 </video>`;
