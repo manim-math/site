@@ -15,7 +15,8 @@ fetch(`https://api.github.com/repos/${gitVideoRepo}/contents/`)
 function addVideo(vidId, prefile){
     vids.innerHTML += 
     `<div id=\"${vidId}\" class=\"vid\">
-    <a href=\"./player?v=${vidId}\"><img src=\"${prefile}\" width=\"320px\" height=\"180\"> 
+    <a href=\"https://manim-math.github.io/site/watch?v=${vidId}\">
+    // <img src=\"${prefile}\" width=\"320px\" height=\"180\"> 
     <p>${vidId}</p></a>
     </div>`;
 }
