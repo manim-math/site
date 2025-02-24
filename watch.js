@@ -6,7 +6,7 @@ fetch(`https://api.github.com/repos/${gitVideoRepo}/contents/`)
   .then(response => response.json())
   .then(data => {
     data.forEach(file => {
-        if (file.name.endsWith('.mp4') && file.name.includes(id)){
+        if (file.name.endsWith('.mp4') && file.name.replace('.mp4', '') == id){
             lnk = file.download_url;
         }
     });
