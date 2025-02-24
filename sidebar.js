@@ -1,0 +1,2 @@
+var sidebar = document.getElementById('sidebar');
+sidebar.innerHTML = "<p><a href=\"./index.html\"><img src=\"https://docs.manim.community/en/stable/_static/manim-logo-sidebar.svg\" width=\"179px\"></a></p>  <h1>Math themes video site</h1>  <h6>Videos were made by Manim*</h6>  <p><a href=\"\">Videos</a></p>  <p><a href=\"\">Blog</a></p>";
