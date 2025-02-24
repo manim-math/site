@@ -16,7 +16,7 @@ function addVideo(vidId, prefile){
     vids.innerHTML += 
     `<div id=\"${vidId}\" class=\"vid\">
     <a href=\"https://manim-math.github.io/site/watch?v=${vidId}\">
-    // <img src=\"${prefile}\" width=\"320px\" height=\"180\"> 
+    <img src=\"${prefile}\" width=\"320px\" height=\"180\"> 
     <p>${vidId}</p></a>
     </div>`;
 }
